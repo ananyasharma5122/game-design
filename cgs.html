@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Review Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+        background-color: #0c0c1d;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 50px auto;
+    }
+    .price-section {
+        background: linear-gradient(135deg, #1a1a3c, #2a2a5c);
+        padding: 50px;
+        border-radius: 15px;
+        flex: 1;
+        text-align: left;
+    }
+    .price-section h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .price-section p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .price-btn {
+        background-color: #6a5acd;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: 0.3s;
+    }
+    .price-btn:hover {
+        background-color: #8a75ff;
+    }
+    .price-image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .price-image img {
+        max-width: 40%;
+        border-radius: 15px;
+    }
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Prices Section</title>
+    <style>
+        body {
+            background-color: #0c0c1d;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            margin: 50px auto;
+        }
+        .price-section {
+            background: linear-gradient(135deg, #1a1a3c, #2a2a5c);
+            padding: 50px;
+            border-radius: 15px;
+            flex: 1;
+            text-align: left;
+        }
+        .price-section h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .price-section p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .price-btn {
+            background-color: #6a5acd;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: 0.3s;
+            display: block;
+            margin: 0 auto;
+        }
+
+        }
+        .price-btn:hover {
+            background-color: #8a75ff;
+        
+        }
+        .price-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .price-image img {
+            max-width: 80%;
+            border-radius: 15px;
+        }
+        .promo-section {
+            position: relative;
+            background: linear-gradient(to right, #5b21b6, #6d28d9, #5b21b6);
+            color: white;
+            padding: 50px;
+            margin-top: 50px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .promo-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .promo-content h2 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .promo-content p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .promo-btn {
+            background-color: white;
+            color: #6a5acd;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .promo-btn:hover {
+            background-color: #f3f4f6;
+        }
+        .promo-image {
+            position: absolute;
+            right: 10%;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 300px;
+            opacity: 0.9;
+            filter: blur(5px);
+        }
+        .airplane-image {
+            transform: rotate(-18.14deg);
+           
+</style>
+  </style>
+</head>
+<body class="overflow-x-hidden">
+  <!-- Reviews Section -->
+<section class="p-8">
+    <h2 class="text-3xl font-bold text-center mb-6">Reviews</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Card Template -->
+      <div class="bg-gray-800 p-4 rounded-xl shadow-lg flex flex-col justify-center">
+        <img src="https://s3-alpha-sig.figma.com/img/b019/4f90/9b051817da115428a35c9474ec682d5c?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pn2HE8IuYmmgS3XrxcpTiAbzFHz-7yY~D0ZY4-ImVECd0LNb3XtW0uxILn0nyLdycM1~n7UMNCZsdd2cMAaWGbGK1-lYTh7LAku~o7RqtwBbK09SrR9ECLcvMRU29YRm~do0V1kr~FsNiWB5yzLirjl0HqZnm8cO8Z4njaqFSR9YFtpj~jV7hy6xaJ46RjTWZsTuvdK3itzSmFk6nKfm49fE7lUqQVf8UkjbeCOBsQV-k2BQv3G2C9TgEcOjdOzvOG2vqQo87P1xRNofR-67ytQZ5vqdCFpP8V32zShO~jGb~wsIPfEn08K7rPzAAWjYT-Y69NArdAsmPbR0M84MGA__" alt="Game Image" class="rounded-lg mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Spenzer</h3>
+        <!-- Star Ratings -->
+        <div class="flex justify-center mb-2 text-yellow-400">
+          <!-- Stars -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+        </div>
+        <p class="text-sm text-gray-300 mb-4">"This game is amazing! The graphics are top-notch, and the story is captivating."</p>
+        <a href="#" class="text-indigo-400 hover:underline">Read More</a>
+      </div>
+      <!-- Repeat cards -->
+      <div class="bg-gray-800 p-4 rounded-xl shadow-lg flex flex-col justify-center">
+        <img src="https://s3-alpha-sig.figma.com/img/584c/fd82/5089916142bc9a9807ad0dce2af40ef6?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=O4QA4FLbFkejrntZqR0Vyc6xCIIEr~aYLhkk6ULecplc-KOEnIGCUE0UkwbALNIHijaLkAlaiCD8uZS43wonVWp1DjW1ScmTekLGzMunN8EUMjs8CbHzb8zRZ7EzFPxT-tLpjm21ISoRKnhGwaEIGJ-nSsnEb2HxogSMwBeDxcZZ0N4L0dXEqQTq9GotgqHRkCep1haaV2V1~pa5FldRlM94D-cCNdIz1zYtrJnGF-NTLLA3DNcmgfICgPlTWo72EWvpFebiMER5zRJmV9fACZ9E4xKy9v6VGisfPjfF1xNspmedwLizQWxPdP03kP4Sl~zs1df-8xtjpV7ee7wYhw__" alt="Game Image" class="rounded-lg mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Bytes</h3>
+        <div class="flex justify-center mb-2 text-yellow-400">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+        </div>
+        <p class="text-sm text-gray-300 mb-4">"The gameplay and design exceeded my expectations!"</p>
+        <a href="#" class="text-indigo-400 hover:underline">Read More</a>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-xl shadow-lg flex flex-col justify-center">
+        <img src="https://s3-alpha-sig.figma.com/img/22dc/c185/706f42eed42c801dd0f8d7932db573e2?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jeIj8x56yWWO4JAKieRqrDylvRUhCQqOSq9EfwO2AcMuyCUIRwSucWj9sINmsQAls6OowYPLk5kzm5Xd00nqbuDXqytbWKxXLncK3et06yQDkZC2vtN9Z1Ij-BFT2q7EuBoLm4BI3zq8iOd4QBTG9-F-FlhHTh3WJTxgyzqN4ko9a5N1Wphw9Bl3lwI~iCxNAbZ~wRZaQNjQwpdHpOp0JbooQvmfAOph9t1SxwsG1DUsVktRYV~10oB~3PSCWy93cv29TctfJHHm~32q1KkYZsWxCG6kYdJ1XaOXzEN-lFPybV-wQrtdwsEiEJqNShmP635BrJ5gauToALJVnwhGIg__" alt="Game Image" class="rounded-lg mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Eric Payne</h3>
+        <div class="flex justify-center mb-2 text-yellow-400">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+          <p class="text-sm text-gray-300 mb-4">"The gameplay and design exceeded my expectations!"</p>
+          <a href="#" class="text-indigo-400 hover:underline">Read More</a>
+        </div>
+       </div>
+        <div class="bg-gray-800 p-4 rounded-xl shadow-lg flex flex-col justify-right">
+            <img src="https://s3-alpha-sig.figma.com/img/65cc/f7b0/5eb5dd90b1208380128153366873a27c?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iJQulCIJkreZcuFgDDQ8a4gc7zElfWub5AQKK9jigNfiUxEqu-qvkAdgdVVfFlOyCYEfDo1AUCx-mCeNkTEZoBdXufKtpDcG9BTF8~doNNAglqjrC5eKsEfzovX10oVAgnXdq5b0zw5L4IyXKiDkiAQzRqZR8TOcP7ufUkU5i9IGJpYF1qzlo8-c~4lwBYr-3D5vPcBgFRP-Zlq02V6uqphw6MNEP~lGEco0uUk7EPDk~~YV4mR2fEstcN5pdzfV15rRPoZzr~YTCZGaYWzPpOpOzyVQZa8cNi0oFWmksVqCwYbUF9ly-jK-oXyJiTQDksHofFhVwW2CV92dbDq~sA__" alt="Game Image" class="rounded-lg mx-auto mb-4">
+            <h3 class="text-xl font-semibold mb-2">Incognito</h3>
+            <div class="flex justify-center mb-2 text-yellow-400">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+                <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+                <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+                <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+                <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+              </svg>
+            </div>
+            <p class="text-sm text-gray-300 mb-4">"The gameplay and design exceeded my expectations!"</p>
+            <a href="#" class="text-indigo-400 hover:underline">Read More</a>
+          </div>
+      </div>
+      <!-- Repeat for additional cards -->
+    </div>
+  </section>
+  
+      <!-- Card Template -->
+      
+    </div>
+  </section>
+
+  <!-- Promo Section -->
+  <section class="relative bg-gradient-to-r from-purple-800 via-purple-700 to-purple-800 text-white py-12 mt-8 rounded-lg shadow-xl">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-center px-6 relative">
+      <div class="text-center md:text-left md:w-1/2 relative z-10">
+        <h2 class="text-4xl font-extrabold mb-4">PlayStation. 50% OFF!</h2>
+        <p class="text-lg mb-6">Grab your favorite PlayStation games at half the price. Limited time offer!</p>
+        <button class="bg-white text-purple-800 px-6 py-3 rounded-full font-bold shadow-lg hover:bg-gray-200">Get Now</button>
+      </div>
+      <div class="md:w-1/2 flex justify-center mt-6 md:mt-0 relative">
+        <img src="https://s3-alpha-sig.figma.com/img/2170/f609/048e91ebad905398ecd485c9b8dd1968?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=OfBAM~42YdPToewlIUzJU4fH8zaSW6i~gR4aFLgrgxOt~pwj1jmoqq~z~mjQ7xwnPNrmAQ8RdRMeLMxyFQ8HIIn34LTlFdNPtNu~uwDRokQl23tpylmKPHy1tPjTz0Nm5-hJnq3ot1c0Vrm05~WkwwqfEQJqZeXfjEYNDBIkpg2WgdieFR~3mX7Dq5vADPTsFdSaGeoV-UtIqTr2ONZnGpHlZXCwX5g04DaIERcjthmH7-WUqFBNTAFg~NXG45lTZcQkSszuNVr4-wLzmSxx0XPWK33jdreMqURrwlcP77BveTAK6bR~DETc5MQ5l2KYyklIOqeBZDPu-eJUoCuYqA__" alt="airplane-image" class="absolute inset-0 w-full h-full object-cover opacity-30 blur-xl">
+        <img src="https://s3-alpha-sig.figma.com/img/0d55/a845/7b4dba6a2c03b3f7d428219ea90511cd?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Z3HIzgR9h6uWcjpBmg7OXd5xu-DqH3qtaFVMGHKoRbeJiyVyOm3KR1Vq1WPHmf~05AfcDOhrJ5SVjpyAcuaEj~GYR4Jaf3eR-iqv0t29uMDBmKps8xGEjVS~4EJGVuxAml2ThsOFHmrOt06KttphDNv0zCjdxo48lBB-jCPbL8QHDzOvBHgjk9PjEwqW02zBM6Q4jwLUmHyUsGDcdMiItarRE6NSBXwlT3XRdSlPYYKOT6CNwHIeTaeUxtnH0eBPHrXIJ4KAUC-N3tcqIg4j~b3Wrh-lX6dwVzmuNdzPYQMc-IOa-RDwBw5GK1Zh8-GjOD7~Y9ztKAhOk7ERWEsO0g__" alt="PlayStation Promo" class="relative rounded-lg shadow-lg z-10">
+      </div>
+    </div>
+  </section>
+
+  <div class="price-section">
+    <h2>Display our prices on your favorite stores</h2>
+    <p>Works on Steam, Epic Games, Origin, Amazon and more.</p>
+    <button class="price-btn">Install OASIS</button>
+  </div>
+  <div class="price-image">
+    <img src="https://s3-alpha-sig.figma.com/img/43cd/2f43/813f5d6abd65834a76d8ec9ff9b8bd39?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=PmoZIVZdVPxFiwQ7k~SN1gxYQKj7dw21mwiHwyYYVuIDjidOM8n5QJlnE65Y9GF9wwE9Lq9wCSH1CHdGVRaYRGfW0t~2I~gKID8CBpJ5y6LekYmnjeUOSvhgmGyTbHvvsTUIQ6YK8pVma4Db8ASma3qSNef3qEEf4n-rBztPBVwUUuT07wCv-xNsfd6m24sKzj4ZtKfUD7cAM41U6DgRx8SKHld2tjwLwU24LrOftlfHoxmDljVenU8OloYEcwgeuxzvZnl-4cabJQbg9pq6scrCLoUxKf8afdr3hgPL9kjOV0uQllZTzY63FbaYbBA1aMNihjgEbIWXIfxhgSRnZA__" alt="Price Display">
+</div>
+  
+  <!-- Signup Section -->
+  <section class="bg-gray-900 py-12 text-center">
+    <h2 class="text-3xl font-bold mb-4">New Here?</h2>
+    <p class="mb-6">Sign up to view personalized recommendations and be the first to receive our prices and deals of the week.</p>
+    <button class="bg-indigo-500 text-white px-6 py-3 rounded-full font-bold shadow-lg">Sign Up</button>
+    <p class="text-gray-400 mt-4">Or already have an account? <a href="#" class="text-indigo-400 hover:underline">Sign In here</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center py-6 text-sm text-gray-400">
+    <div>OASIS</div>
+    <div class="mt-2">Download our app:</div>
+    <div class="flex justify-center mt-2 gap-2">
+      <a href="#" class="text-white">App Store</a>
+      <a href="#" class="text-white">Google Play</a>
+    </div>
+  </footer>
+</body>
+</html>
